@@ -8,17 +8,15 @@ body {
   background-color: hsl(0, 0%, 8%);
   font-family: "Inter", sans-serif;
   color: white;
-  max-width: 1440px;
-  min-width: 320px;
 }
 
 .main_content {
   border-radius: 2%;
   background-color: hsl(0, 0%, 12%);
-  width: 270px;
+  max-width: 270px;
   font-size: 10px;
   padding-bottom: 30px;
-  margin: 4% 37.5%;
+  margin: 4% auto;
 }
 
 img {
@@ -53,14 +51,15 @@ a {
   text-decoration: none;
   color: white;
   width: 230px;
-  margin: 10px 20px;
+  margin: 10px auto;
   padding: 10px;
   text-align: center;
   background-color: hsl(0, 0%, 20%);
   border-radius: 6px;
   display: block;
 }
-a:hover {
+a:hover,
+a:focus {
   background-color: hsl(75, 94%, 57%);
   color: hsl(0, 0%, 8%);
   font-weight: bold;
