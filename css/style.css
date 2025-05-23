@@ -8,32 +8,30 @@ body {
   background-color: hsl(0, 0%, 8%);
   font-family: "Inter", sans-serif;
   color: white;
+  max-width: 1440px;
+  min-width: 320px;
 }
 
 .main_content {
-  outline: 2px solid white;
   border-radius: 2%;
   background-color: hsl(0, 0%, 12%);
-  width: 25%;
-  max-width: 1440px;
-  min-width: 320px;
-  font-size: 14px;
-  margin: 10% 37.5%;
+  width: 270px;
+  font-size: 10px;
+  padding-bottom: 30px;
+  margin: 4% 37.5%;
 }
 
 img {
-  margin: 10% 33%;
-}
-
-img {
-  width: 100px;
+  width: 70px;
   border-radius: 50px;
+  margin: 30px 100px;
 }
 
-h2 {
+.title_pragraf {
   font-weight: 400;
   text-align: center;
   margin-bottom: 5px;
+  font-size: 17px;
 }
 
 p {
@@ -43,21 +41,27 @@ p {
 .pragraf_1 {
   color: hsl(75, 94%, 57%);
 }
+.pragraf_2 {
+  margin: 25px 0px 20px;
+}
 
 ul {
   list-style: none;
 }
 
-li {
-  width: 80px;
-  margin: 3% 10%;
-  padding: 10px;
-  text-align: center;
-  background-color: hsl(75, 94%, 57%);
-  border-radius: 5%;
-}
-
 a {
   text-decoration: none;
   color: white;
+  width: 230px;
+  margin: 10px 20px;
+  padding: 10px;
+  text-align: center;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 6px;
+  display: block;
+}
+a:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+  font-weight: bold;
 }
