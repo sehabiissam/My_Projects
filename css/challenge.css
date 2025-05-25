@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(221, 100%, 96%);
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+main {
+  background-color: white;
+  display: flow-root;
+  max-width: 480px;
+  margin: 15vh auto;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.result {
+  color: white;
+  width: 240px;
+  text-align: center;
+  background: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+  padding: 3rem 2rem;
+  border-radius: 1rem;
+}
+
+.introdaction,
+.full_score,
+.description p {
+  font-size: 12px;
+  color: hsl(241, 100%, 89%);
+}
+
+.introdaction {
+  font-size: 15.3px;
+  font-weight: 400;
+}
+
+.your_result div {
+  background: linear-gradient(
+    to bottom,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  width: 104px;
+  margin: 1.5rem auto;
+  padding: 22.4px;
+  border-radius: 100%;
+}
+
+.score {
+  font-size: 32px;
+}
+
+.description h2 {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.result_num {
+  width: 240px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.result_num .numebers h2 {
+  margin: 1rem;
+  font-size: 15.3px;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  border-radius: 0.5rem;
+  width: 200px;
+  padding: 0.7rem;
+  margin: 1rem;
+  font-size: 12px;
+}
+
+.result_num .numebers ul li p {
+  display: inline-block;
+  margin-left: 0.5rem;
+  font-weight: 600;
+}
+
+img {
+  width: 15px;
+  margin: -3px;
+}
+
+li:nth-child(1) {
+  background-color: hsla(0, 100%, 67%, 0.091);
+}
+
+li:nth-child(2) {
+  background-color: hsla(39, 100%, 56%, 0.091);
+}
+
+li:nth-child(3) {
+  background-color: hsla(166, 100%, 37%, 0.091);
+}
+
+li:nth-child(4) {
+  background-color: hsla(234, 85%, 45%, 0.091);
+}
+
+.num {
+  color: black;
+}
+
+li:nth-child(1) .num {
+  margin-left: 3.3rem;
+}
+
+li:nth-child(2) .num {
+  margin-left: 3.5rem;
+}
+
+li:nth-child(3) .num {
+  margin-left: 4.2rem;
+}
+
+li:nth-child(4) .num {
+  margin-left: 4.3rem;
+}
+
+li:nth-child(1) p {
+  color: hsl(0, 100%, 67%);
+}
+li:nth-child(2) p {
+  color: hsl(39, 100%, 56%);
+}
+li:nth-child(3) p {
+  color: hsl(166, 100%, 37%);
+}
+li:nth-child(4) p {
+  color: hsl(234, 85%, 45%);
+}
+
+.out_of_100 {
+  color: hsl(241, 100%, 89%);
+}
